@@ -1,65 +1,120 @@
-# JS Portfolio Website
+<h1 align="center">Welcome to developer-portfolio 👋</h1>
+<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
 
-[🔗Live Demo🔗](https://sajib.vercel.app/)
+## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
 
-![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png)
+<p align="center">
+  <kbd>
+    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+  </kbd>
+</p>
 
-<div align="center">
+## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/19sajib/portfolio?color=yellow)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-</div>
+Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-<table align="center">
-    <thead align="center">
-        <tr border: 1px;>
-            <td><b>Project Stats</td>
-            <td><b>🌟 Stars</b></td>
-            <td><b>🍴 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-        </tr>
-     </thead>
-    <tbody>
-         <tr>
-            <td><a href="https://github.com/19sajib/portfolio"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/19sajib/portfolio?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/19sajib/portfolio?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/19sajib/portfolio?style=flat&color=critical&logo=github"/></td>
-        </tr>
-    </tbody>
-</table>
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
 
-<br/>
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
 
-## Features
+## Sections
 
-**📖 Multi-Page Layout**
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Feedbacks\
+✔️ Projects\
+✔️ Github Profile
 
-**🎨 Styled with React-Bootstrap and CSS with easy to customize colors**
+## Getting Started
 
-**📱 Fully Responsive**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-<br />
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+<br>
+**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
-## 🚀 How to get started?
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## How To Use
 
-## 🛠 Installation and Setup Instructions
+1. Fork this repoistory and clone it to your local machine.
 
-1. Installation: `npm install`
+```bash
+$ git clone https://github.com/<your-username>/developer-portfolio.git
+```
 
-2. In the project directory, you can run: `npm start`
+2. Go into the repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
-The page will reload if you make edits.
+```bash
+$ cd developer-portfolio
+```
 
-<br />
-Feel free to contribute to this repo.
+3. Install dependencies
 
-### Show some ❤️&nbsp; by giving the star :star: to this repository!!
-<h1 align=center> 🧠 Happy Hacking 🧠 </h1>
+```bash
+$ yarn
+```
+
+4. Edit `portfolio.js`
+
+5. Start's development server
+
+```bash
+$ yarn dev
+```
+
+## Linking Portfolio to Github
+
+```javascript
+  //  portfolio.js
+  githubUserName: 'YOUR GITHUB USERNAME HERE',
+```
+
+#### Using Emojis
+
+For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [axios](https://www.npmjs.com/package/axios)
+- [reactstrap](https://reactstrap.github.io/)
+- [react-reveal](https://www.react-reveal.com/)
+- [react-lottie](https://www.npmjs.com/package/react-lottie)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
+- [color-thief](https://github.com/lokesh/color-thief)
+
+## Illustrations
+
+- [Lottie File Source](https://lottiefiles.com)
+
+## Icons
+
+Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
+
+## For the Future
+
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+
+- Enable Dark Mode
+
+- Add More Sections
+
+## Author
+
+👤 **Hanzla Tauqeer**
+
+- Website: https://hanzla.netlify.app
+- Github: [@1hanzla100](https://github.com/1hanzla100)
+- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
